@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../../Aeonik-Bold.otf");
+}
+
+@font-face {
+  font-family: "Aeoniklight";
+  src: url("../../Aeonik-Light.otf");
+}
+
+@font-face {
+  font-family: "AeonikMedium";
+  src: url("../../Aeonik-Medium.otf");
+}
+
+@font-face {
+  font-family: "CircularSpotify";
+  src: url("../../CircularSpotifyText-Light.otf");
+}
+
+.footer_img {
+  background-color: rgba(0, 0, 0, 0.96);
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 756px) {
+  .footer_img {
+    display: none;
+  }
+}
+
+.footers_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 370px;
+  z-index: -1;
+}
+
+.footer_title {
+  font-family: AeonikMedium;
+  color: white;
+  font-size: 22px;
+  /* font-weight: 700; */
+  text-align: left;
+}
+
+.footer_subtitle {
+  font-family: CircularSpotify;
+  color: #b9b9b9;
+  text-align: left;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.footer_copyright {
+  font-family: AeonikMedium;
+  color: #b9b9b9;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.footer_section_one {
+  padding-left: 80px;
+}
+
+.footer_section_two {
+  padding-left: 50px;
+}
+
+.footer_section_third {
+  padding-left: 100px;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .footer_section_one {
+    padding-left: 50px;
+  }
+
+  .footer_section_two {
+    padding-left: 40px;
+  }
+
+  .footer_section_third {
+    padding-left: 90px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footer_section_one {
+    padding-left: 30px;
+  }
+
+  .footer_section_two {
+    padding-left: 15px;
+  }
+
+  .footer_section_third {
+    padding-left: 50px;
+  }
+  .footer_subtitle {
+    color: #b9b9b9;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer_section_one {
+    padding-left: 40px;
+  }
+
+  .footer_section_two {
+    padding-left: 30px;
+  }
+
+  .footer_section_third {
+    padding-left: 0px;
+  }
+  .footer_subtitle {
+    color: #b9b9b9;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .footer_section_one {
+    padding-left: 30px;
+  }
+
+  .footer_section_two {
+    padding-left: 0px;
+  }
+
+  .footer_section_third {
+    padding-left: 0px;
+  }
+  .footer_subtitle {
+    color: #b9b9b9;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer_section_one {
+    padding-left: 0px;
+  }
+
+  .footer_section_two {
+    padding-left: 0px;
+  }
+
+  .footer_section_third {
+    padding-left: 0px;
+  }
+  .footer_subtitle {
+    color: #b9b9b9;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo_style {
+    font-size: 20px;
+  }
+}
+
+.footer_mobile_main {
+  background-color: black;
+  min-height: 600px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.footer_logo_section {
+  display: flex;
+  gap: 0.6rem;
+  padding: 2rem 0;
+}
+
+.footer_logo_image {
+  height: 31px;
+  width: 31px;
+}
+
+.footer_logo_title {
+  font-size: 21px;
+  font-weight: 700;
+  font-family: "Urbanist";
+  letter-spacing: 1px;
+  color: white;
+}
+
+.footer_item_row {
+  display: flex;
+  gap: 4rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.footer_item_col {
+  width: 50%;
+}
+
+.text_bright {
+  color: white;
+  font-family: AeonikMedium;
+  font-size: 14px;
+  font-weight: medium;
+  letter-spacing: 1px;
+}
+
+.footer_title_light {
+  color: #a9a8a8;
+  font-family: CircularSpotify;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.footer_copy {
+  width: 100%;
+  color: #a9a8a8;
+  text-align: center;
+}
+
+@media (min-width: 755px) {
+  .footer_mobile_main {
+    display: none;
+  }
+}

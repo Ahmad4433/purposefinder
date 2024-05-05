@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../../../Aeonik-Bold.otf");
+}
+
+@font-face {
+  font-family: "Aeoniklight";
+  src: url("../../../Aeonik-Light.otf");
+}
+
+@font-face {
+  font-family: "AeonikMedium";
+  src: url("../../../Aeonik-Medium.otf");
+}
+
+@font-face {
+  font-family: "CircularSpotify";
+  src: url("../../../CircularSpotifyText-Light.otf");
+}
+
+.hows_title {
+  font-family: Aeonik;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 4px;
+}
+
+@media (max-width: 756px) {
+  .hows_title {
+    font-size: 36px;
+    letter-spacing: 1px;
+  }
+}
+
+.how_subheader {
+  font-family: CircularSpotify;
+  color: #b9b9b9;
+  text-align: center;
+  font-size: 28px;
+  width: 72%;
+  padding-top: 24px;
+}
+
+.how_subbody {
+  padding-top: 100px;
+}
+
+.how_title {
+  font-family: AeonikMedium;
+  color: white;
+  font-size: 24px;
+  /* font-weight: 700; */
+  text-align: left;
+}
+
+.how_subtitle {
+  font-family: AeonikMedium;
+  color: #b9b9b9;
+  text-align: left;
+  font-size: 24px;
+  /* font-weight: 700; */
+}
+
+.how_box {
+  border: 0.5px solid #241b27;
+  width: 450px;
+  height: 380px;
+  border-radius: 20px;
+  background: #121212;
+  display: flex;
+  justify-content: center;
+}
+
+.pink_style {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40%;
+  border-top-left-radius: 20px;
+}
+
+.box_three {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.be_style {
+  background-color: #cb6ce6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../assets/Images/Group1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.com_img {
+  height: 320px;
+}
+
+.how_img {
+  height: 330px;
+  margin-top: 48px;
+}
+
+.search_content {
+  padding-left: 218px;
+}
+
+.how_body {
+  padding-top: 3rem;
+}
+
+.be_title {
+  font-family: Aeonik;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  /* width: 78%; */
+}
+
+.join_how_btn {
+  font-family: AeonikMedium;
+  font-size: 32px;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  width: 339px;
+  border: none;
+  height: 91px;
+  margin-top: 60px;
+}
+
+.how_bottom {
+  padding-bottom: 120px;
+}
+
+.how_top {
+  padding-top: 3rem;
+}
+
+.hows_top {
+  padding-top: 3rem;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .how_subheader {
+    font-family: Aeonik;
+    color: #b9b9b9;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    width: 60%;
+  }
+
+  .com_img {
+    height: 300px;
+  }
+
+  .search_content {
+    padding-left: 185px;
+  }
+
+  .be_style {
+    height: 650px;
+  }
+
+  .be_title {
+    font-family: Aeonik;
+    color: white;
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+    width: 85%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .how_subheader {
+    font-family: Aeonik;
+    color: #b9b9b9;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    width: 75%;
+  }
+
+  .com_img {
+    height: 250px;
+  }
+
+  .search_content {
+    padding-left: 85px;
+  }
+
+  .be_style {
+    height: 555px;
+  }
+
+  .be_title {
+    font-family: Aeonik;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    width: 85%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .box_three {
+    display: flex;
+    justify-content: center;
+  }
+
+  .box_how {
+    margin-top: 20px;
+  }
+
+  .hows_builets {
+    padding-left: 120px;
+  }
+
+  .hows_builetss {
+    padding-left: 160px;
+  }
+
+  .third_how_box {
+    padding-left: 170px;
+  }
+
+  .four_how_box {
+    padding-left: 155px;
+  }
+
+  .search_content {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .how_subheader {
+    color: #b9b9b9;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    width: 85%;
+  }
+
+  .com_img {
+    height: 250px;
+  }
+
+  .how_body {
+    padding-top: 3rem;
+  }
+
+  .hows {
+    display: flex;
+    justify-content: center;
+  }
+
+  .how_title {
+    font-family: Aeonik;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .how_subtitle {
+    font-family: CircularSpotify;
+    color: #b9b9b9;
+    /* text-align: center; */
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .be_style {
+    height: 480px;
+  }
+
+  .be_title {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .box_how {
+    margin-top: 20px;
+  }
+
+  .hows_builets {
+    padding-left: 48px;
+  }
+
+  .hows_builetss {
+    padding-left: 87px;
+  }
+
+  .third_how_box {
+    padding-left: 97px;
+  }
+
+  .four_how_box {
+    padding-left: 82px;
+  }
+
+  .how_subheader {
+    color: #b9b9b9;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    width: 100%;
+  }
+
+  .com_img {
+    height: 250px;
+  }
+
+  .how_title {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .how_subtitle {
+    color: #b9b9b9;
+    /* text-align: center; */
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .how_body {
+    padding-top: 3rem;
+  }
+
+  .hows {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search_content {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .box_three {
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+  }
+
+  .be_style {
+    height: 450px;
+  }
+
+  .be_title {
+    font-family: Aeonik;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .hows_top {
+    padding-top: 0rem;
+  }
+  .how_top {
+    padding-top: 40px;
+  }
+  .box_how {
+    margin-top: 20px;
+  }
+
+  .hows_builets {
+    padding-left: 40px;
+  }
+
+  .hows_builetss {
+    padding-left: 40px;
+  }
+
+  .third_how_box {
+    padding-left: 40px;
+  }
+
+  .four_how_box {
+    padding-left: 40px;
+  }
+
+  .how_subheader {
+    color: #b9b9b9;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+    width: 100%;
+    padding-top: 0.5rem;
+  }
+
+  .com_img {
+    height: 250px;
+  }
+
+  .how_title {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    /* text-align: center; */
+  }
+
+  .how_subtitle {
+    color: #b9b9b9;
+    /* text-align: center; */
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .how_body {
+    padding-top: 3rem;
+  }
+
+  .hows {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search_content {
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .box_three {
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+  }
+
+  .be_style {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 375px;
+  }
+
+  .bg_be_img {
+    position: absolute;
+    top: 2px;
+    width: 100%;
+    height: 400px;
+  }
+
+  .how_bottom {
+    padding-bottom: 64px;
+  }
+
+  .be_title {
+    font-family: Aeonik;
+    color: white;
+    font-size: 28px;
+    line-height: 1.4;
+    width: 85%;
+
+
+padding: 0;
+    text-decoration: none;
+  }
+
+  .join_how_btn {
+    font-size: 16px;
+    border-radius: 50px;
+    width: 183px;
+    border: none;
+    height: 48px;
+    margin-top: 29px;
+  }
+
+  .how_img {
+    height: 250px;
+    margin-top: 27px;
+  }
+
+  .how_box {
+    border: 0.5px solid #241b27;
+    width: 100%;
+    height: 280px;
+  }
+}

@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('../../Aeonik-Bold.otf')
+}
+
+@font-face {
+    font-family: 'Aeoniklight';
+    src: url('../../Aeonik-Light.otf')
+}
+
+@font-face {
+    font-family: 'AeonikMedium';
+    src: url('../../Aeonik-Medium.otf')
+}
+
+@font-face {
+    font-family: 'AeonikRegular';
+    src: url('../../Aeonik-Regular.otf')
+}
+
+@font-face {
+    font-family: 'CircularSpotify';
+    src: url('../../CircularSpotifyText-Light.otf')
+}
+
+.grp_imge{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 650px;
+}
+
+.grp_imges{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.refer_title{
+    font-family: AeonikMedium;
+    padding-top: 320px;
+    color: white;
+    font-size: 32px;
+    /* font-weight: 700; */
+    text-align: center;
+    width: 87%;
+}
+
+.refer_subtitle{
+    font-family: AeonikRegular;
+    padding-top: 120px;
+    color: white;
+    font-size: 24px;
+    /* font-weight: 700; */
+    text-align: center;
+}
+
+.name_refer_input{
+    font-family: Aeoniklight;
+    margin-top: 25px;
+    font-size: 18px;
+    width: 540px;
+    height: 56px;
+    border-radius: 100px;
+    border: 1px solid #444444;
+    background: #171717;
+    color: white;
+    font-weight: 600;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.url_input{
+    font-family: AeonikRegular;
+    background: #171717;
+    border: none;
+    width: 72%;
+    outline: none;
+    color: white;
+}
+
+.url_input::placeholder {
+    color: white;
+}
+
+.refer_btn_body{
+    margin-top: 32px;
+}
+
+.copy_btn{
+    font-family: AeonikRegular;
+    font-size: 16px;
+    background-color: #CB6CE6;
+    color: white;
+    border-radius: 100px;
+    width: 140px;
+    border: none;
+    height: 45px;
+}
+
+.share_btn{
+    font-family: AeonikMedium;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    width: 257px;
+    height: 56px;
+    border: none;
+    /* font-weight: 900; */
+}
+
+.linkedin_btn{
+    font-family: AeonikMedium;
+    font-size: 18px;
+    background-color: #4E4EFF;
+    color: white;
+    border-radius: 50px;
+    width: 257px;
+    height: 56px;
+    border: none;
+    /* font-weight: 900; */
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .grp_imge{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 70%;
+    }
+    
+    .grp_imges{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .refer_body{
+        height: 100vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .grp_imge{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 70%;
+    }
+    
+    .grp_imges{
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+    .refer_title{
+        font-family: Aeonik;
+        padding-top: 300px;
+        color: white;
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .refer_body{
+        height: 100vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .grp_imge{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 70%;
+    }
+    
+    .grp_imges{
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        width: 15%;
+    }
+
+    .refer_title{
+        font-family: Aeonik;
+        padding-top: 300px;
+        color: white;
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .refer_subtitle {
+        font-family: Aeonik;
+        padding-top: 70px;
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .refer_body{
+        height: 100vh;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .grp_imge{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 70%;
+    }
+    
+    .grp_imges{
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        width: 15%;
+    }
+
+    .refer_title{
+        font-family: Aeonik;
+        padding-top: 280px;
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .refer_subtitle {
+        font-family: Aeonik;
+        padding-top: 70px;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .url_input {
+        background: #171717;
+        border: none;
+        width: 64%;
+        outline: none;
+        font-size: 15px;
+    }
+    .refer_body{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .grp_imge{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 70%;
+    }
+    
+    .grp_imges{
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        width: 15%;
+    }
+
+    .refer_title{
+        font-family: Aeonik;
+        padding-top: 200px;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .refer_subtitle {
+        font-family: Aeonik;
+        padding-top: 60px;
+        color: white;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .url_input {
+        background: #171717;
+        border: none;
+        width: 72%;
+        outline: none;
+    }
+    .refer_body{
+        height: 120vh;
+    }
+    .copy_btn {
+        font-family: Aeonik;
+        font-size: 17px;
+        background-color: #CB6CE6;
+        color: white;
+        border-radius: 20px;
+        width: 140px;
+        border: none;
+        height: 45px;
+    }
+
+    .name_refer_input {
+        margin-top: 10px;
+        font-family: Aeoniklight;
+        font-size: 18px;
+        width: 100%;
+        height: 56px;
+        border-radius: 20px;
+        border: 1px solid #444444;
+        background: #171717;
+        color: white;
+        font-weight: 600;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+}
