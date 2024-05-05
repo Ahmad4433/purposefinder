@@ -161,7 +161,8 @@
 
 @media (min-width: 576px) and (max-width: 768px) {
   .about_title {
-    font-size: 45px;
+    font-size: 36px;
+
   }
 
   .about_subtitle {
@@ -183,8 +184,9 @@
     /* font-weight: 400; */
     text-align: center;
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 1rem;
     letter-spacing: 1px;
+    
   }
 
   .about_subtitle {

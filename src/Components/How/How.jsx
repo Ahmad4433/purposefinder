@@ -262,7 +262,7 @@ const How = () => {
                 style={{ cursor: "pointer" }}
                 onClick={handleButtonClick}
               >
-                Join Waitlist 🖊️
+                Join Waitlist
               </button>
             </div>
           </div>
