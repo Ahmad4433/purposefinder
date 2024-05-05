@@ -32,7 +32,7 @@ const Refer = () => {
           <div className=" container">
             <div className="row">
               <div className="col">
-                <img src={Decroation} alt="" className="grp_imge" />
+                {/* <img src={Decroation} alt="" className="grp_imge" /> */}
                 <img src={Bell} alt="" className="grp_imges" />
                 <div className="d-flex justify-content-center">
                   <p className="refer_title">

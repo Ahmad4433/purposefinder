@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.refer_body{
+    height: 100vh;
+    background-image: url('../assets/Images/image7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 @font-face {
     font-family: 'Aeonik';
     src: url('../../Aeonik-Bold.otf')
@@ -147,9 +154,7 @@
         transform: translate(-50%, 50%);
     }
 
-    .refer_body{
-        height: 100vh;
-    }
+    
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -309,7 +314,8 @@
         outline: none;
     }
     .refer_body{
-        height: 120vh;
+        height: 100vh;
+      
     }
     .copy_btn {
         font-family: Aeonik;
