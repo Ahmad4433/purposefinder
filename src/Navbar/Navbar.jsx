@@ -26,7 +26,8 @@ const Navbar = () => {
   return (
     <>
       <div className="sub_header">
-        <img src={banner} />
+        <span className="beta_title" >Our beta is live!!🎉</span>
+
         {/* <div className="header_menu" >
         <div className="d-flex flex-column pt-3 gap-3 ps-3">
           <div className="toggle_data">For Individuals</div>
