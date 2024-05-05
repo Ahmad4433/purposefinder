@@ -11,11 +11,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route path="/" element={<Landing />} />
-            <Route path="/join" element={<Join />} />
-            <Route path="/refer" element={<Refer />} />
-          </Route>
+          <Route path="/" element={<Landing />} />
+          <Route path="/join" element={<Join />} />
+          <Route path="/refer" element={<Refer />} />
         </Routes>
       </BrowserRouter>
     </>

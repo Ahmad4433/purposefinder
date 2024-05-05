@@ -68,7 +68,8 @@
   background-color: #cb6ce6;
   color: white;
   border-radius: 50px;
-  width: 100%;
+width: 50%;
+margin: 0 auto;
   border: none;
   height: 70px;
   margin-top: 40px;
@@ -81,6 +82,7 @@
     padding: 1rem 0;
     letter-spacing: 1px;
     font-family: AeonikMedium;
+    width: 100%;
   }
 }
 

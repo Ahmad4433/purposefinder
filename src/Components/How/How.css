@@ -103,7 +103,11 @@
   background-position: center;
   background-size: cover;
   /* height: 100vh; */
+
+  
 }
+
+
 
 .com_img {
   height: 320px;
@@ -144,6 +148,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .how_bottom {

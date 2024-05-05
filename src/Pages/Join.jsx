@@ -29,6 +29,24 @@ const Join = () => {
         <>
             <div className="background-container">
                 <img src={Group} alt="" className='grp_img_join' />
+                <div className="switch-container">
+          <div className="logo_container">
+            <img className="header_logo" src={logo} alt="" />
+            <span onClick={()=>navigate('/')} className="header_logo_text">PurposeFindr</span>
+          </div>
+
+          {/* <button
+            className="join_btn_navbar d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block"
+            onClick={() => navigate("/join")}
+          >
+            Join Waitlist
+          </button> */}
+
+          {/* <IoReorderThreeOutline
+            className="menu_opnen_icon"
+            onClick={handleShow}
+          /> */}
+        </div>
                 {/* <div className='switch-container' style={{ paddingTop: "40px" }}>
                     <div className='d-flex logo_style gap-2' onClick={() => navigate('/')}>
                         <img src={logo} alt="" />
