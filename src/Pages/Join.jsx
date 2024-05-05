@@ -91,7 +91,7 @@ const Join = () => {
                                     <label htmlFor="" className='label_style input_label_body'>Comment/Suggestion <span style={{ color: "#888888" }}>(optional)</span></label>
                                     <textarea className="select_styles"></textarea>
                                     <button className='joins_waitlist_btn' onClick={() => navigate('/refer')}>
-                                        Join Waitlist  🪄
+                                        Join Waitlist
                                     </button>
                                   
                                 </form>

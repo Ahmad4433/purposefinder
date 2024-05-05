@@ -74,6 +74,16 @@
   margin-top: 40px;
 }
 
+@media (max-width: 756px) {
+  .joins_waitlist_btn {
+    font-size: 18px;
+    height: 58px;
+    padding: 1rem 0;
+    letter-spacing: 1px;
+    font-family: AeonikMedium;
+  }
+}
+
 .join_title {
   font-family: AeonikMedium;
   padding-top: 88px;
@@ -88,7 +98,6 @@
 .join_input {
   padding-top: 56px;
   width: 100%;
- 
 }
 
 .input_label_body {
@@ -96,8 +105,8 @@
 }
 
 .label_style {
-  font-family: AeonikMedium;
-  font-size: 18px;
+  font-family: AeonikLight;
+  font-size: 16px;
   /* font-weight: 600; */
   color: white;
 }
@@ -111,8 +120,8 @@
 
 .icon_styles {
   position: absolute;
-  top: 46%;
-  left: 93%;
+  top: 50%;
+  right: 1rem;
   transform: translateY(-50%);
 }
 
@@ -136,7 +145,7 @@
 .select_style {
   margin-top: 10px;
   font-family: AeonikMedium;
-  font-size: 18px;
+  font-size: 16px;
   width: 100%;
   height: 56px;
   border-radius: 100px;
@@ -149,12 +158,13 @@
   appearance: none;
   display: flex;
   align-items: center;
+  padding-right: 2rem;
 }
 
 .select_styles {
   margin-top: 10px;
   font-family: AeonikMedium;
-  font-size: 18px;
+  font-size: 16px;
   width: 100%;
   height: 85px;
   border-radius: 20px;
@@ -260,8 +270,7 @@
     font-size: 18px;
     width: 100%;
     letter-spacing: 1px;
- 
-   
+    font-family: AeonikMedium;
   }
   .link_style {
     display: flex;
@@ -290,18 +299,31 @@
 
   .name_input {
     margin-top: 10px;
-    font-size: 16px;
-    width: 100%;
+    font-size: 14px;
     height: 56px;
     border-radius: 20px;
     border: 1px solid #444444;
     background: #171717;
-    color: #98a2b3;
+    /* color: #98a2b3; */
     font-weight: 600;
     padding-left: 40px;
     outline: none;
     display: flex;
     align-items: center;
+    display: block;
+    width: 100%;
+    font-weight: AeonikLight;
+  }
 
+  .name_input::placeholder {
+    font-weight: AeonikLight;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+  }
+
+  .select_style::placeholder {
+    font-weight: AeonikLight;
+    font-size: 14px;
+    letter-spacing: 0.4px;
   }
 }

@@ -22,7 +22,7 @@ const Refer = () => {
         <>
             <div className="container-fluid background-container refer_body">
                 <img src={Group} alt="" className='grp_img' />
-                <div className='switch-container'>
+                {/* <div className='switch-container'>
                     <div className='d-flex logo_style gap-2' onClick={() => navigate('/')}>
                         <img src={logo} alt="" />
                         PurposeFindr
@@ -41,7 +41,7 @@ const Refer = () => {
                         </ul>
                     </div>
                     <Button className='d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none' onClick={handleShow}><IoReorderThreeOutline /></Button>
-                </div>
+                </div> */}
                 <div className="container pb-5">
                     <div className="row">
                         <div className="col">

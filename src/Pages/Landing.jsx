@@ -16,12 +16,12 @@ const Landing = () => {
     }, []);
     return (
         <>
-            <Layout>
+           
                 <About />
                 <Card />
                 <Unique />
                 <How />
-            </Layout>
+          
 
         </>
     )
