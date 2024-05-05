@@ -517,7 +517,7 @@ input:checked + .sliders:before {
     text-align: center;
     font-size: 18px;
     padding-top: 16px;
-    width: 79%;
+    width: 100%;
     margin: 0;
 
   }
@@ -594,7 +594,7 @@ input:checked + .sliders:before {
   width: 24px;
 }
 .header_logo_text {
-  font-family: "Urbanist";
+  font-family: AeonikMedium;
   font-size: 15px;
   font-weight:700;
   color: white;

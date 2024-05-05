@@ -415,6 +415,7 @@
 
   .four_how_box {
     padding-left: 40px;
+   
   }
 
   .how_subheader {
@@ -512,7 +513,7 @@
   }
 
   .how_box {
-    border: 0.5px solid #241b27;
+    border: 2px solid #241b27;
     width: 100%;
     height: 280px;
   }
