@@ -27,20 +27,20 @@ const Join = () => {
 
     return (
         <>
-            <div className="container-fluid background-container">
+            <div className="background-container">
                 <img src={Group} alt="" className='grp_img_join' />
-                <div className='switch-container' style={{ paddingTop: "40px" }}>
+                {/* <div className='switch-container' style={{ paddingTop: "40px" }}>
                     <div className='d-flex logo_style gap-2' onClick={() => navigate('/')}>
                         <img src={logo} alt="" />
                         PurposeFindr
                     </div>
-                    {/* <label className="switch d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+                    <label className="switch d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
                         <input type="checkbox" onClick={handleSwitch} />
                         <div className="sliders">
                             <span className={`${isIndividualActive ? "label_text" : "label_textone"}`}>Individuals</span>
                             <span className={`${isIndividualActive ? "label_textone" : "label_text"}`}>Recruiters</span>
                         </div>
-                    </label> */}
+                    </label>
                     <div className='d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block'>
                         <ul className="link_style">
                             <li className="link-item">
@@ -55,7 +55,7 @@ const Join = () => {
                         </ul>
                     </div>
                     <Button className='d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none' onClick={handleShow}><IoReorderThreeOutline /></Button>
-                </div>
+                </div> */}
                 <div className="container pb-4">
                     <div className="row">
                         <div className="col">

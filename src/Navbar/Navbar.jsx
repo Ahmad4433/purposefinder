@@ -6,9 +6,10 @@ import { IoIosClose } from "react-icons/io";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Arrow from "../assets/Images/Group 4.png";
-import logo from "../assets/Images/3D.svg";
+// import logo from "../assets/Images/3D.svg";
+import logo from "../assets/icons/svg-logo.svg";
 import Group from "../assets/Images/Group.svg";
-import banner from '../assets/icons/banner-white.png'
+import banner from "../assets/icons/banner-white.png";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -25,16 +26,16 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="sub_header">
+      {/* <div className="sub_header">
         <span className="beta_title" >Our beta is live!!</span>
 
-        {/* <div className="header_menu" >
+        <div className="header_menu" >
         <div className="d-flex flex-column pt-3 gap-3 ps-3">
           <div className="toggle_data">For Individuals</div>
           <div className="toggle_data">For Recruiters</div>fsfds
         </div>
-        </div> */}
-      </div>
+        </div>
+      </div> */}
 
       <div className="container-fluid p-0 background-container">
         <img src={Group} alt="" className="grp_img" />
@@ -51,10 +52,10 @@ const Navbar = () => {
             Join Waitlist
           </button>
 
-          <IoReorderThreeOutline
+          {/* <IoReorderThreeOutline
             className="menu_opnen_icon"
             onClick={handleShow}
-          />
+          /> */}
         </div>
 
         <div className="container hero_content">
@@ -62,15 +63,14 @@ const Navbar = () => {
             <div className="col">
               <div className="d-flex justify-content-center position-relative">
                 <div className="hero_title">
-                  AI-Powered Skill Matching to help you land your dream role!
+                  Discover Your Dream Career Abroad with AI-Powered Matching!
                 </div>
                 <img src={Arrow} alt="" className="arrow_style" />
               </div>
               <div className="d-flex justify-content-center">
                 <div className="hero_subtitle">
-                  An AI technology that matches you with 1,000+ prospective
-                  recruiters based on your skill-set, to get you closer to
-                  landing your dream role.
+                  AI Matches You with 1,000+ Prospective Recruiters Worldwide
+                  Based on Your Skill-Set!
                 </div>
               </div>
             </div>

@@ -254,8 +254,9 @@ const How = () => {
                 className="bg_be_img d-block d-sm-none d-md-none d-lg-none d-xl-none d-xxl-none"
               />
               <p className="be_title m-0">
-                Be one of the first users of PurposeFindr's <br /> AI-enabled
-                software that redefines job <br /> hunting and recruitment.
+                Join purposefindr's pioneering AI-driven platform designed to
+                connect you with your dream job abroad, revolutionizing the job
+                search and recruitment process!
               </p>
               <button
                 className="join_how_btn"
