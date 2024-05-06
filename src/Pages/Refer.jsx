@@ -11,16 +11,12 @@ import Bell from "../assets/Images/bell.png";
 import Group from "../assets/Images/Group.svg";
 
 const Refer = () => {
-  const navigate = useNavigate();
-
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const navigate = useNavigate()
 
   return (
     <>
       <div className=" background-container refer_body">
-        <img src={Group} alt="" className="grp_img" />
+        {/* <img src={Group} alt="" className="grp_img" /> */}
         <div className="switch-container">
           <div className="logo_container">
             <img className="header_logo" src={logo} alt="" />
@@ -43,4 +39,4 @@ const Refer = () => {
 
 export default Refer;
 
-// container-fluid background-container
+
