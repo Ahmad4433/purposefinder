@@ -9,6 +9,12 @@
   background-image: url("../assets/Images/image7.png");
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.refer_body::-webkit-scrollbar {
+  display: none;
 }
 
 @font-face {
@@ -375,16 +381,13 @@
   }
 } */
 
-
- @media (max-width: 756px) {
+@media (max-width: 756px) {
   .refer_container {
     position: absolute;
     top: 150px;
- 
   }
   .refer_title {
     width: 100%;
     padding-top: 4rem;
   }
 }
-
