@@ -15,6 +15,8 @@ import Tagfive from "../../assets/Images/Group6.png";
 import Tagsix from "../../assets/Images/Group7.png";
 import Tagseven from "../../assets/Images/Group8.png";
 import mapFram from "../../assets/Images/map-frame.png";
+import frame from '../../assets/icons/frame2.png'
+
 
 const About = () => {
   const navigate = useNavigate();
@@ -86,9 +88,17 @@ const About = () => {
             />
             <img
               style={{ width: "100%", height: "100%" }}
+              src={frame}
+              className="frame_image"
+              alt=""
+              id="small_frame"
+            />
+            <img
+              style={{ width: "100%", height: "100%" }}
               src={Frame}
               className="frame_image"
               alt=""
+              id="big_frame"
             />
           </div>
         </div>

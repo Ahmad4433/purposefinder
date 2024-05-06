@@ -162,7 +162,6 @@
 @media (min-width: 576px) and (max-width: 768px) {
   .about_title {
     font-size: 36px;
-
   }
 
   .about_subtitle {
@@ -186,14 +185,12 @@
     width: 100%;
     padding: 0 2rem;
     letter-spacing: 1px;
-    
   }
 
   .about_subtitle {
     font-size: 18px;
     width: 100%;
     padding: 1rem 0.4rem;
-
   }
 
   .arrow_about_img {
@@ -211,6 +208,33 @@
   }
 }
 
+#small_frame {
+  display: none;
+}
 
+@media (max-width: 556px) {
+  #small_frame {
+    display: block;
+  }
 
+  /* .tagone_img,
+  .tagtwo_img,
+  .tagthree_img,
+  .tagfour_img,
+  .tagfive_img,
+  .tagsix_img,
+  .tagseven_img {
+    width: 15%;
+  } */
 
+}
+
+#big_frame {
+  display: none;
+}
+@media (min-width: 756px) {
+  #big_frame {
+    display: block;
+  }
+ 
+}
