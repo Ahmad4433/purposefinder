@@ -79,6 +79,6 @@
   }
 
   .refer_body {
-    min-height: calc(100vh - 5rem);
+    min-height: calc(100vh - 4rem);
   }
 }
