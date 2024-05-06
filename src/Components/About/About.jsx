@@ -87,20 +87,13 @@ const About = () => {
               className="tagseven_img"
               data-aos="fade-down"
             />
-            {/* <img
-              style={{ width: "100%", height: "100%" }}
-              src={frame}
-              className="frame_image"
-              alt=""
-              id="small_frame"
-            />
             <img
               style={{ width: "100%", height: "100%" }}
               src={Frame}
               className="frame_image"
               alt=""
               id="big_frame"
-            /> */}
+            />
           </div>
         </div>
 
