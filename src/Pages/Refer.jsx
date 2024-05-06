@@ -16,7 +16,7 @@ const Refer = () => {
   return (
     <>
       <div className=" background-container refer_body">
-        {/* <img src={Group} alt="" className="grp_img" /> */}
+        <img src={Group} alt="" className="grp_img" />
         <div className="switch-container">
           <div className="logo_container">
             <img className="header_logo" src={logo} alt="" />
