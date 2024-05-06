@@ -16,6 +16,7 @@ import Tagsix from "../../assets/Images/Group7.png";
 import Tagseven from "../../assets/Images/Group8.png";
 import mapFram from "../../assets/Images/map-frame.png";
 import frame from '../../assets/icons/frame2.png'
+import mobileFrame from '../../assets/icons/mobile-frame.png'
 
 
 const About = () => {
@@ -42,7 +43,7 @@ const About = () => {
           </div>
         </div>
         <div className="row about_img position-relative" data-aos="fade-down">
-          <div className="col">
+          <div className=" frame_bg col">
             <img
               src={Tagseven}
               alt=""
@@ -86,7 +87,7 @@ const About = () => {
               className="tagseven_img"
               data-aos="fade-down"
             />
-            <img
+            {/* <img
               style={{ width: "100%", height: "100%" }}
               src={frame}
               className="frame_image"
@@ -99,7 +100,7 @@ const About = () => {
               className="frame_image"
               alt=""
               id="big_frame"
-            />
+            /> */}
           </div>
         </div>
 
