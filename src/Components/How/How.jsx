@@ -42,7 +42,7 @@ const How = () => {
           </div>
           <div className="row how_subbody">
             <div className="col d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
-              <div className="row box_content">
+              <div  className="row box_content">
                 <div className="col-lg-6" data-aos="fade-top">
                   <p className="how_title m-0">
                     1. Create your profile & set preferences
@@ -50,12 +50,12 @@ const How = () => {
                   <p className="how_subtitle m-0 pt-2">
                     <ul className="m-0 ps-4">
                       <li>Discover tailored opportunities</li>
-                    </ul>{" "}
+                    </ul>
                   </p>
                   <p className="how_subtitle m-0 pt-2">
                     <ul className="m-0 ps-4">
                       <li>Get matched swiftly & apply</li>
-                    </ul>{" "}
+                    </ul>
                   </p>
                   <p className="how_subtitle m-0 pt-2">
                     <ul className="m-0 ps-4">

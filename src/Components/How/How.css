@@ -54,7 +54,7 @@
 }
 
 .how_title {
-  font-family: AeonikMedium;
+  font-family: AeonikLight;
   color: white;
   font-size: 24px;
   /* font-weight: 700; */
@@ -62,7 +62,7 @@
 }
 
 .how_subtitle {
-  font-family: AeonikMedium;
+  font-family: AeonikLight;
   color: #b9b9b9;
   text-align: left;
   font-size: 24px;
@@ -70,7 +70,7 @@
 }
 
 .how_box {
-  border: 0.5px solid #241b27;
+  border: 2px solid #241b27;
   width: 450px;
   height: 380px;
   border-radius: 20px;
@@ -103,11 +103,7 @@
   background-position: center;
   background-size: cover;
   /* height: 100vh; */
-
-  
 }
-
-
 
 .com_img {
   height: 320px;
@@ -127,12 +123,13 @@
 }
 
 .be_title {
-  font-family: Aeonik;
+  font-family: AeonikLight;
   color: white;
-  font-size: 60px;
-  font-weight: 700;
+  font-size: 44px;
+  width: 57%;
   text-align: center;
-  /* width: 78%; */
+  padding: 4rem 0;
+  line-height: 1.8;
 }
 
 .join_how_btn {
@@ -148,7 +145,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .how_bottom {
@@ -186,12 +183,12 @@
   }
 
   .be_title {
-    font-family: Aeonik;
+    font-family: AeonikLight;
     color: white;
-    font-size: 54px;
-    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.8;
     text-align: center;
-    width: 85%;
+    width: 50%;
   }
 }
 
@@ -220,7 +217,7 @@
   .be_title {
     font-family: Aeonik;
     color: white;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 700;
     text-align: center;
     width: 85%;
@@ -283,11 +280,11 @@
   }
 
   .how_title {
-    font-family: Aeonik;
+    font-family: AeonikLight;
     color: white;
     font-size: 25px;
-    font-weight: 700;
-    text-align: center;
+
+    text-align: left;
   }
 
   .how_subtitle {
@@ -295,7 +292,6 @@
     color: #b9b9b9;
     /* text-align: center; */
     font-size: 22px;
-    font-weight: 700;
   }
 
   .be_style {
@@ -304,8 +300,8 @@
 
   .be_title {
     color: white;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: AeonikLight;
     text-align: center;
     width: 100%;
   }
@@ -347,15 +343,14 @@
   .how_title {
     color: white;
     font-size: 25px;
-    font-weight: 700;
-    text-align: center;
+    text-align: left;
+    font-weight: AeonikLight;
   }
 
   .how_subtitle {
     color: #b9b9b9;
     /* text-align: center; */
     font-size: 22px;
-    font-weight: 700;
   }
 
   .how_body {
@@ -420,7 +415,6 @@
 
   .four_how_box {
     padding-left: 40px;
-   
   }
 
   .how_subheader {
@@ -441,6 +435,7 @@
     font-size: 15px;
     letter-spacing: 1px;
     /* text-align: center; */
+    font-weight: Aeonik;
   }
 
   .how_subtitle {
@@ -510,6 +505,7 @@
     border: none;
     height: 48px;
     margin-top: 29px;
+    margin-bottom: 1rem;
   }
 
   .how_img {
