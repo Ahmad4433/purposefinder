@@ -505,15 +505,16 @@ input:checked + .sliders:before {
     padding-top: 190px;
   }
 
-  .hero_title {
+  /* .hero_title {
     font-family: Aeonik;
     color: white;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
     text-align: center;
     line-height: 45px;
-    width: 80%;
-  }
+    width: 100%;
+    
+  } */
 
   .hero_subtitle {
     color: #b9b9b9;
@@ -541,13 +542,16 @@ input:checked + .sliders:before {
   .hero_title {
     font-family: Aeonik;
     color: white;
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 700;
     text-align: center;
     line-height: 60px;
     width: 100%;
     line-height: 1.5;
     padding: 0 0.4rem;
+ 
+  
+  
   }
 
   .hero_subtitle {
