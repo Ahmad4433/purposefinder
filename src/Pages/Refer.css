@@ -6,9 +6,11 @@
 
 .refer_body {
   height: 100vh;
+  max-height: 100vh;
   background-image: url("../assets/Images/image7.png");
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-y: hidden;
 }
 
 @font-face {
@@ -66,13 +68,11 @@
 }
 
 @media (max-width: 756px) {
-
-
-  .refer_container{
+  .refer_container {
     gap: 1rem;
   }
   .grp_imges {
-width: 80px;
+    width: 80px;
   }
   .refer_title {
     font-size: 18px;
