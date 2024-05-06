@@ -5,13 +5,11 @@
 }
 
 .refer_body {
-  height: 100vh;
-  max-height: 100vh;
   background-image: url("../assets/Images/image7.png");
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-y: auto; /* Allow vertical scrolling */
-  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  min-height: 100vh;
+  overflow-y: hidden;
 }
 
 @font-face {
@@ -79,5 +77,8 @@
     font-size: 18px;
     width: 90%;
   }
-}
 
+  .refer_body {
+    min-height: calc(100vh - 2rem);
+  }
+}
