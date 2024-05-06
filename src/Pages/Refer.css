@@ -348,27 +348,28 @@
   .refer_container {
     position: absolute;
     top: 150px;
+    height: 100vh;
   }
-  .refer_title{
+  .refer_title {
     width: 100%;
-padding-top: 3rem;
+    padding-top: 3rem;
   }
 }
 
-@media (min-width: 990px) and (max-width:1366px) {
+@media (min-width: 990px) and (max-width: 1366px) {
   .refer_container {
     padding-top: 3rem;
     width: 100%;
+    height: 100vh;
   }
 }
 
-
-@media(min-width:1400px){
-    .refer_container{
+@media (min-width: 1400px) {
+  .refer_container {
     padding-top: 10rem;
-    }
-    .grp_imges{
-        top: 25%;
-  
-    }
+    height: 100vh;
+  }
+  .grp_imges {
+    top: 25%;
+  }
 }
