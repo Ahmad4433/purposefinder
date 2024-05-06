@@ -441,7 +441,7 @@
   .how_subtitle {
     color: #b9b9b9;
     /* text-align: center; */
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 1px;
   }
 
@@ -498,6 +498,11 @@
     letter-spacing: 0.6px;
   }
 
+  .be_style {
+    position: relative;
+
+  }
+
   .join_how_btn {
     font-size: 16px;
     border-radius: 50px;
@@ -506,6 +511,10 @@
     height: 48px;
     margin-top: 29px;
     margin-bottom: 1rem;
+      position: absolute;
+      bottom: 0;
+      z-index: 1000;
+   
   }
 
   .how_img {

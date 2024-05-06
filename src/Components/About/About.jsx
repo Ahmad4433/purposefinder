@@ -84,7 +84,12 @@ const About = () => {
               className="tagseven_img"
               data-aos="fade-down"
             />
-            <img src={Frame} alt="" style={{ width: "100%",height:'100%' }} />
+            <img
+              style={{ width: "100%", height: "100%" }}
+              src={Frame}
+              className="frame_image"
+              alt=""
+            />
           </div>
         </div>
 
