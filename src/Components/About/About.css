@@ -220,7 +220,11 @@
     width: 25%;
   }
 
-  .tagtwo_img,.tag_img,.tagfour_img,.tagsix_img,.tagseven_img {
+  .tagtwo_img,
+  .tag_img,
+  .tagfour_img,
+  .tagsix_img,
+  .tagseven_img {
     display: none;
   }
   #big_frame {
