@@ -216,16 +216,19 @@
   #small_frame {
     display: block;
   }
-
-  /* .tagone_img,
+  .tag_img,
+  .tagone_img,
   .tagtwo_img,
   .tagthree_img,
   .tagfour_img,
   .tagfive_img,
   .tagsix_img,
   .tagseven_img {
-    width: 15%;
-  } */
+    width: 20%;
+  }
+  .tagfour_img,.tagsix_img,.tagseven_img{
+    display: none;
+  }
 
 }
 
