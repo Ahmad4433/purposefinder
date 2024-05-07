@@ -235,5 +235,8 @@
     background-image: url("../../assets/icons/mobile-frame.png");
     height: 300px;
     width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
   }
 }
