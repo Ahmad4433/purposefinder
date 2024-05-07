@@ -31,7 +31,7 @@ const About = () => {
 
   return (
     <>
-      <div className="container-fluid about_body">
+      <div className="about_body">
         <div className="row">
           <div className="col">
             <div className="d-flex justify-content-center position-relative">
