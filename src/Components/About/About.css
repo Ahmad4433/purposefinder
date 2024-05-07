@@ -21,6 +21,7 @@
 
 .about_subbody {
   padding-top: 100px;
+  overflow-y: hidden;
 }
 
 .tag_img {
