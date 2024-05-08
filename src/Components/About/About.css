@@ -217,9 +217,14 @@
   .tagfour_img,
   .tagfive_img,
   .tagsix_img,
-  .tagseven_img {
+  .tagseven_img
+  
+  {
     width: 25%;
+
+
   }
+
 
   .tagtwo_img,
   .tag_img,
@@ -232,7 +237,7 @@
     display: none;
   }
 
-  .frame_bg {
+  /* .frame_bg {
     background-image: url("../../assets/icons/mobile-frame.png");
     height: 300px;
     width: 100%;
@@ -241,7 +246,7 @@
     background-size: 100%;
     max-width: 100%;
     overflow-x: hidden;
-  }
+  } */
 
   .about_body {
     overflow-x: hidden;
