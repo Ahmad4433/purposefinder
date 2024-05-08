@@ -30,6 +30,7 @@
   padding-right: 60px;
   padding-bottom: 50px;
   padding-top: 100px;
+  overflow-x: hidden;
 }
 
 .box_content {
