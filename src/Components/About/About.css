@@ -237,16 +237,16 @@
     display: none;
   }
 
-  /* .frame_bg {
+  .frame_bg {
     background-image: url("../../assets/icons/mobile-frame.png");
-    height: 300px;
-    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    width: 100vw; /* Use viewport width to make it full width */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-  } */
+    background-size: cover; /* Use cover to ensure the image covers the entire width without distortion */
+    max-width: 100%; /* Ensure it doesn't exceed the screen width */
+    overflow-x: hidden; /* Hide horizontal scroll if any */
+  }
 
   .about_body {
     overflow-x: hidden;
