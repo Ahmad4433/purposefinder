@@ -53,7 +53,7 @@ const Card = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row pt-5">
+                    {/* <div className="row pt-5">
                         <div className="col">
                             <div className="row box_content">
                                 <div className="col-lg-6 box_two">
@@ -69,7 +69,7 @@ const Card = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="row pt-5">
                         <div className="col d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
                             <div className="row box_content">
