@@ -44,7 +44,7 @@ const About = () => {
         </div>
         <div className="row about_img position-relative" data-aos="fade-down">
           <div className=" frame_bg col">
-            {/* <img
+            <img
               src={Tagseven}
               alt=""
               className="tag_img"
@@ -86,7 +86,7 @@ const About = () => {
               alt=""
               className="tagseven_img"
               data-aos="fade-down"
-            /> */}
+            />
             <img
               style={{ width: "100%", height: "100%" }}
               src={Frame}
